@@ -1,0 +1,15 @@
+To use this application, follow the steps:
+
+1. Install the packages/modules from "requirements.txt"
+
+2. Go to "/songpodcastaudiobookapi/songpodcastaudiobookapi/settings.py"
+Line 66 >> "DATABASES"; Enter the credentials of your database
+
+3. Use "makemigrations" & "migrate" commands
+
+4. Run server (MySql) & Use "python manage.py runserver"
+
+5. URLs can make GET,POST,PUT,DELETE requests in the Browseable Template
+
+6. To get all datas in JSON format, disable Browseable Template by uncommenting 
+Line 116 >> "REST_FRAMEWORK" 
